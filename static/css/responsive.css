@@ -1,0 +1,676 @@
+
+/*============ Very large Device ===========*/
+@media (min-width:1440px) and (max-width:1919px){
+    .site_logo_area  a img {
+        width: 100%;
+    }
+    .inner_main_nav_area >ul >li >a {
+        font-size: 16px;
+        margin: 35px 23px;
+    }
+    .main_nav_right_text {
+        display: none;
+    }
+    .inner_slider_content h2{
+        font-size: 80px;
+    }
+}
+/*============ Desktop Device ===========*/
+@media (min-width:1366px) and (max-width:1439px){
+    h1,h2,h3,h4,h5,h6,h1 a,h2 a,h3 a,h4 a,h5 a,h6 a{
+        font-weight: 500; 
+        font-size: 20px;
+    }
+    /* header top area */
+    .header_top_area {
+        padding: 10px 50px;
+    }
+    .absolute_menu .main_nav_area {
+        justify-content: start;
+    }
+    .main_menu_area {
+        padding: 0 20px 0 0px;
+    }
+    .inner_main_nav_area >ul >li >a {
+        font-size: 16px;
+        margin: 35px 20px;
+    }
+    /* slider area css */
+    .inner_slider_area{
+        height: 700px;
+    }
+    .inner_slider_content h2{
+        font-size: 60px;
+    }
+    .inner_slider_content p{
+        width: 100%;
+    }
+    .slider_title h4 {
+        font-size: 170px;
+    }
+    /* about area css */
+    .inner_about_list_content ul li a {
+        font-size: 20px;
+    }
+   /* section title area css */
+   .section_title_area h3,.inner_call_action h1 {
+        font-size: 35px;
+    }
+    span.witr_cir_text {
+        font-size: 50px;
+    }
+    /* testimonial area css */
+    .testimonial_area {
+        background-position: center;
+    }
+    .testimonial_area .slick-next {
+        right: 84%;
+    }
+    .testimonial_right_area {
+        left: 25%;
+    }
+    /* contact area css */
+    .inner_contact_area {
+        padding: 60px 30px 68px;
+    }
+    .witr_cir_text{
+        font-size: 50px;
+    }
+    /* blog area css */
+    .blog_all_text {
+        padding: 30px 10px 20px;
+    }
+    .blog_area .slick-prev, .team_area .slick-prev {
+        left: 92%;
+    }
+    .single_post_comment_area input {
+        width: 46%;
+        margin-bottom: 20px;
+    }
+    .inner_single_post_checkbox input {
+        display: none;
+    }
+}
+/*============ Laptop Device ===========*/
+@media (min-width:1024px) and (max-width:1365px){
+    h1,h2,h3,h4,h5,h6,h1 a,h2 a,h3 a,h4 a,h5 a,h6 a{
+        font-weight: 500; 
+        font-size: 18px;
+    }
+    /* header top area */
+    .header_top_area {
+        padding: 10px 20px;
+    }
+    .site_logo_area  a img {
+        width: 100%;
+    }
+    .main_menu_area {
+        padding: 0 0px;
+    }
+    .inner_main_nav_area >ul >li >a {
+        font-size: 17px;
+        margin: 35px 11px;
+        text-transform: capitalize;
+    }
+    .main_nav_btn a {
+        font-size: 12px;
+    }
+    /* slider area css */
+    .inner_slider_area{
+        height: 600px;
+    }
+    .inner_slider_content h1{
+        font-size: 20px;
+    }
+    .inner_slider_content h2{
+        font-size: 50px;
+    }
+    .inner_slider_content p{
+        width: 100%;
+    }
+    .slider_title h4 {
+        font-size: 150px;
+    }
+     /* breadcum area css */
+     .breadcum_area {
+        padding: 130px 0 60px;
+    }
+    /* about area css */
+    .inner_about_list_content ul li a {
+        font-size: 16px;
+    }
+     /* service area css */
+     .service_area {
+        margin: 40px 0px 50px 0;
+        padding: 40px 0px 50px 0px;
+    }
+    span.witr_cir_text {
+        font-size: 50px;
+    }
+   /* section title area css */
+   .section_title_area h3,.inner_call_action h1, .footer_top_cont h2, .inner_contact_area .section_title_area h3 {
+        font-size: 30px;
+    }
+     /* team area css */
+     .team_area .slick-prev {
+        left: 84%;
+    }
+    .team_area .slick-next{
+        right: 20px;
+    }
+    /* testimonial area css */
+    .testimonial_area {
+        padding: 100px 0px 150px 0px;
+        background-position: center;
+    }
+    .testimonial_area .slick-prev{
+        left: 20px;
+    }
+    .testimonial_area .slick-next {
+        right: 68%;
+    }
+    /* contact area css */
+    .inner_contact_area {
+        padding: 60px 20px 68px;
+    }
+    /* blog area css */
+    .blog_all_text {
+        padding: 20px 10px 0px;
+    }
+    .blog_area .slick-prev {
+        left: 84%;
+    }
+    .blog_area .slick-next{
+        right: 20px;
+    }
+    .inner_blog_text::before {
+        left: 76%;
+    }
+    .inner_subsrribe_form_cont h2 {
+        font-size: 30px;
+    }
+    .ycalender_inner th {
+        padding: 10px 10px;
+    }
+    .ycalender_inner td {
+        padding: 10px 10px;
+        font-size: 13px;
+    }
+    .single_post_comment_area input {
+        width: 46%;
+        margin-bottom: 20px;
+    }
+    .inner_single_post_checkbox input {
+        display: none;
+    }
+    .footer_top_right_form p input {
+        width: 67%;
+    }
+    #scrollUp {
+        bottom: 50px;
+    }
+}
+
+/*============= Tablet Large device ===============*/
+@media (min-width:992px) and (max-width:1023px){
+    h1,h2,h3,h4,h5,h6,h1 a,h2 a,h3 a,h4 a,h5 a,h6 a{
+        font-weight: 500; 
+        font-size: 18px;
+    }
+    h1{
+        font-size: 24px;
+    }
+    /* header top area */
+    .header_top_area {
+        padding: 10px 20px;
+    }
+    .heaer_top_right_btn {
+        display: none;
+    }
+    .main_menu_area {
+        padding: 0 0px;
+    }
+    .site_logo_area  a img {
+        width: 100%;
+    }
+    .inner_main_nav_area >ul >li >a {
+        font-size: 18px;
+        margin: 35px 7px;
+        text-transform: capitalize;
+    }
+    /* slider area css */
+    .inner_slider_area{
+        height: 600px;
+    }
+    .inner_slider_content h1{
+        font-size: 20px;
+    }
+    .inner_slider_content h2{
+        font-size: 40px;
+    }
+    .inner_slider_content p{
+        width: 100%;
+    }
+    .slider_title h4 {
+        font-size: 150px;
+    }
+    .slider_socail_icon{
+        display: none;
+    }
+    /* breadcum area css */
+    .breadcum_area {
+        padding: 130px 0 60px;
+    }
+    /* about area css */
+    .inner_about_list_content ul li a {
+        font-size: 16px;
+    }
+   /* section title area css */
+   .section_title_area h3 {
+        font-size: 30px;
+    }
+    /* service area css */
+    .service_area {
+        margin: 40px 0px 50px 0;
+        padding: 40px 0px 50px 0px;
+    }
+    span.witr_cir_text{
+        font-size: 50px;
+    }
+    /* team area css */
+    .team_area .slick-prev {
+        left: 84%;
+    }
+    .team_area .slick-next{
+        right: 20px;
+    }
+    /* testimonial area css */
+    .testimonial_area {
+        padding: 100px 0px 150px 0px;
+        background-position: center;
+    }
+    .testimonial_right_area{
+        text-align: left !important;
+    }
+    .testimonial_area .slick-prev{
+        left: 20px;
+    }
+    .testimonial_area .slick-next {
+        right: 68%;
+    }
+    /* contact area css */
+    .inner_contact_area {
+        padding: 60px 20px 68px;
+    }
+    /* blog area css */
+    .blog_all_text {
+        padding: 20px 10px 0px;
+    }
+    .blog_area .slick-prev {
+        left: 84%;
+    }
+    .blog_area .slick-next{
+        right: 20px;
+    }
+    .inner_blog_text::before {
+        left: 76%;
+    }
+    .inner_subsrribe_form_cont h2 {
+        font-size: 30px;
+    }
+    .ycalender_inner th {
+        padding: 10px 10px;
+    }
+    .ycalender_inner td {
+        padding: 10px 10px;
+        font-size: 13px;
+    }
+    .single_post_comment_area input {
+        width: 46%;
+        margin-bottom: 20px;
+    }
+    .inner_single_post_checkbox input {
+        display: none;
+    }
+    #scrollUp {
+        bottom: 50px;
+    }
+
+}
+
+/*============= Tablet device ===============*/
+@media (min-width:768px) and (max-width:991px){
+    h1,h2,h3,h4,h5,h6,h1 a,h2 a,h3 a,h4 a,h5 a,h6 a{
+        font-weight: 500; 
+        font-size: 18px;
+    }
+    h1{
+        font-size: 24px;
+    }
+    h2{
+        font-size: 18px;
+    }
+    /* header top area */
+    .header_top_area {
+        padding: 10px 20px;
+    }
+    .header_left, .header_right, .copyright_text, .copyright_nav,.call_right_btn, .inner_call_action {
+        text-align: center !important;
+    }
+    .heaer_top_right_btn a{
+        display: none;
+    }
+    .header_right{
+        justify-content: center;
+    }
+    /* mobile menu css */
+    .mobile_menu{
+        display: block !important;
+    }
+    .mobile_logo_area{
+        display: block !important;
+        text-align: center;
+        padding: 10px 0;
+        background-color: #f6b021;
+    }
+    .mobile_menu_logo a img {
+        width: 100%;
+    }
+    /* main menu css */
+    .main_menu_area{
+        display: none;
+    }
+    /* slider area css */
+    .inner_slider_area{
+        height: 500px;
+    }
+    .inner_slider_content{
+        text-align: center;
+    }
+    .inner_slider_content h1{
+        font-size: 20px;
+    }
+    .inner_slider_content h2{
+        font-size: 40px;
+    }
+    .inner_slider_content p, .inner_faq_img img{
+        width: 100%;
+    }
+    .slider_title h4{
+        font-size: 100px;
+    }
+    .m_btn a {
+        padding: 12px 25px;
+        font-size: 15px;
+    }
+    .slider_socail_icon{
+        display: none;
+    }
+    /* breadcum area css */
+    .breadcum_area {
+        padding: 70px 0 60px;
+    }
+    /* about area css */
+    .about_list_area {
+        display: block;
+    }
+    .inner_about_list_content ul li{
+        margin-bottom: 10px;
+    }
+    .inner_about_list_content ul li a, .inner_testimonial_area p{
+        font-size: 18px;
+    }
+     /* section title area css */
+     .section_title_area h3 {
+        font-size: 25px;
+    }
+    /* service area start */
+    .service_area {
+        margin: 40px 0px 50px 0;
+        padding: 40px 0px 60px 0px;
+        background-position: bottom center;
+    }
+    .single_left_service {
+        padding: 70px 40px 40px 0px;
+    }
+    /* testimonial area css */
+    .testimonial_area {
+        padding: 100px 0px 100px 0px;
+        background-position: center;
+    }
+    .testimonial_right_area{
+        text-align: left !important;
+    }
+    /* counter area css */
+    .inner_counter_area, .footer_widget{
+        margin-bottom: 20px;
+    }
+    .inner_subsrribe_form_cont h2 {
+        font-size: 25px;
+    }
+    /* contact area css */
+    .inner_contact_area {
+        padding: 60px 10px 68px;
+    }
+    .ycalender_inner th {
+        padding: 10px 10px;
+    }
+    .ycalender_inner td {
+        padding: 10px 10px;
+    }
+    .single_post_comment_area input{
+        width: 43%;
+    }
+    .inner_single_post_checkbox input {
+        display: none;
+    }
+    .single_post_comment_area textarea{
+        width: 100%;
+    }
+}
+
+/*============= mobile large device ===============*/
+@media (max-width:767px){
+    h1,h2,h3,h4,h5,h6,h1 a,h2 a,h3 a,h4 a,h5 a,h6 a{
+        font-weight: 500; 
+        font-size: 18px;
+    }
+    h1{
+        font-size: 24px;
+    }
+    h2{
+        font-size: 18px;
+    }
+    h3{
+        font-size: 16px;
+    }
+    h4{
+        font-size: 15px;
+    }
+    /* header top area */
+    .header_top_area {
+        padding: 10px 20px;
+    }
+    .header_left, .header_right, .copyright_text, .copyright_nav,.call_right_btn, .inner_call_action {
+        text-align: center !important;
+    }
+    .copyright_nav ul li a {
+    margin: 0 7px;
+    }
+    .header_right{
+        display: block;
+    }
+    .heaer_top_right_btn a{
+        display: none;
+    }
+    /* mobile menu css */
+    .mobile_menu{
+        display: block !important;
+    }
+    .mobile_logo_area{
+        display: block !important;
+        text-align: center;
+        padding: 15px 0;
+        background-color: #f6b021;
+    }
+    .mobile_menu_logo a img {
+        width: 100%;
+    }
+    /* main menu css */
+    .main_menu_area{
+        display: none;
+    }
+    /* slider area css */
+    .inner_slider_area{
+        height: 500px;
+    }
+    .inner_slider_content{
+        text-align: center;
+    }
+    .inner_slider_content h1{
+        font-size: 18px;
+    }
+    .inner_slider_content h2{
+        font-size: 35px;
+    }
+    .inner_slider_content p{
+        width: 100%;
+    }
+    .slider_title h4 {
+        font-size: 80px;
+    }
+    .m_btn a {
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+    .slider_socail_icon{
+        display: none;
+    }
+    /* breadcum area css */
+    .breadcum_area {
+        padding: 70px 0 60px;
+    }
+    /* about area css */
+    .about_list_area {
+        display: block;
+    }
+    .inner_about_list_content ul li a{
+        font-size: 18px;
+    }
+    .inner_about_right_area{
+        margin-top: 20px;
+    }
+    .inner_about_right_area img{
+        width: 100%;
+    }
+    .about_right_name_title h2 {
+        font-size: 30px;
+    }
+    /* section title area css */
+    .section_title_area h3 {
+        font-size: 25px;
+    }
+    .inner_section_title_para{
+        text-align: center;
+    }
+    .section_title_area p{
+        width: 100% !important;
+    }
+    /* service area css */
+    .service_area {
+        background-position: center right;
+        margin: 40px 0px 50px 0;
+    }
+    .single_left_service{
+        background-color: var(--bgcolor);
+        padding: 50px 20px;
+    }
+    /* counter area css */
+    .inner_counter_area, .footer_widget{
+        margin-top: 20px;
+    }
+    /* testimonial area css */
+    .testimonial_area {
+        padding: 70px 0px 60px 0px;
+        background-position: inherit;
+    }
+    .testimonial_right_area{
+        display: none;
+    }
+    .inner_testimonial_area>p{
+        width: 100%;
+        font-size: 18px;
+    }
+    .inner_subsrribe_form_cont h2 {
+        font-size: 17px;
+    }
+    span.witr_cir_text {
+        font-size: 50px;
+    }
+    /* contact area css */
+    .inner_contact_area {
+        padding: 60px 10px 68px;
+    }
+    .single_post_comment_area input{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .inner_single_post_checkbox input{
+        display: none;
+    }
+    .single_post_comment_area textarea{
+        width: 100%;
+    }
+    /* blog area css */
+    .blog_all_text {
+        padding: 30px 30px 20px;
+    }
+    .footer_area{
+        text-align: center;
+    }
+    .footer_mid_img_text{
+        display: block;
+    }
+.copy_right_area {
+    margin-top: 0;
+    padding: 0;
+}
+
+
+
+}
+
+/*============= mobile device ===============*/
+@media (min-width:320px) and (max-width:480px){
+    .inner_slider_content{
+        width: 90%;
+    }
+    .inner_slider_content h2{
+        font-size: 24px;
+    }
+    .single_service_right{
+        margin: 0 0;
+    }
+    /* subscribe area css */
+    .inner_subscribe_text {
+        display: block;
+        text-align: center;
+    }
+    .inner_subsrribe_form_cont {
+        padding: 15px 0 10px 0px;
+    }
+    .inner_blog_text::before {
+        left: 64%;
+    }
+    .ycalender_inner th {
+        padding: 10px 10px;
+    }
+    .ycalender_inner td {
+        padding: 10px 10px;
+        font-size: 13px;
+    }
+    #scrollUp {
+        bottom: 75px;
+        right: 20px;
+    }
+}
